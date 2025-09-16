@@ -16,4 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDate
+import java.time.temporal.TemporalAdjusters
 
+LocalDate today = LocalDate.now();
+
+LocalDate firstDayOfMonth = today.with(TemporalAdjusters.firstDayOfMonth());
+LocalDate lastDayOfMonth = today.with(TemporalAdjusters.lastDayOfMonth());
+
+System.out.println("Today: " + today);
+System.out.println("First Day of Month: " + firstDayOfMonth);
+System.out.println("Last Day of Month: " + lastDayOfMonth);

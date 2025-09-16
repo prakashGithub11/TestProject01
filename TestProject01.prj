@@ -6,11 +6,12 @@
    <UUID>9579c12e-0a2e-4fef-9048-e376219d5002</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.1.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.1.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Project file\TestProject01\TestProject01.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
